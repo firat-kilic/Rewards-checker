@@ -32,7 +32,13 @@ This project contains a Python script to monitor transactions on your Sentry wal
 
 - Open `bot.py` and replace the values of `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID`, `MY_WALLET_ADDRESS`, and `ARB_API_URL` with your own information.
 
-### Step 4: Creating and Managing a Screen Session
+### Step 4: Install Required Packages
+
+- Ensure you have a `requirements.txt` file in your project directory with all the necessary packages.
+- Install the required packages by running:
+  pip install -r requirements.txt
+
+### Step 5: Creating and Managing a Screen Session
 
 To ensure that the script continues to run in the background, particularly useful on a remote server, you can utilize `screen`:
 
